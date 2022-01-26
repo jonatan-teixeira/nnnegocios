@@ -10,33 +10,40 @@ header {
     height: 80px;
     top: 0;
     padding-top: 10px;
+    line-height: 50px;
     display: flex;
     flex-direction: row;
     color: yellow;
     align-content: space-between;
-}
-
-header nav {
-    float: right;
-}
-
-header nav a {
     text-decoration: none;
+}
+
+header a {
     color: yellow;
 }
 
-.contato {
-    padding-left: 800px;
+.hd-l {
+    padding-right: 600px;    
+    padding-left: 30px;
+}
+.hd-r {
+    padding-left: 500px;
+    padding-right: 20px;
 }
 
 main {
     margin-top: 80px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     color: white;
     text-align: left;
     background-color: #363636;
     height: 500px;
+}
+
+main h1 {
+    padding-top: 30px;
 }
 
 .first-btn {
@@ -55,21 +62,30 @@ main {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .box-serv {
     width: 30%;
     height: 30%;
+    padding: 10px;
 }
 
 .article {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .consult-espec {
     height: 400px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -88,15 +104,25 @@ main {
     padding-top: 25px;
 }
 
-ul {
-    float: right;
-    margin-right: 200px;
+ul .list-cons{
+    align-self: center;
     text-decoration: none;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul .list-banner {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 20px;
 }
 
 .center {
     width: 500px;
-    align-content: center;
+    padding-top: 30px;
+    margin-top: 25px;
+    align-self: center;
+    width: 300px;
 }
 
 footer {
@@ -108,6 +134,6 @@ footer {
 
 #rodape {
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 35px;
 }
 
